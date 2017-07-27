@@ -11,7 +11,8 @@ public:
     
 private:
   date birthday_;
-  bool alive_;
+  bool female_;
+  bool alive_; // so we don't have to remove dead people right away
 };
 
 #endif // HUMAN_H_INCLUDED_
